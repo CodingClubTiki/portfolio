@@ -1,0 +1,153 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Expériences Professionnelles</title>
+    <link href="https://fonts.googleapis.com/css2?family=Montserrat:wght@400;600&display=swap" rel="stylesheet">
+    <style>
+        body {
+            margin: 0;
+            font-family: 'Montserrat', sans-serif;
+            background-color: #fdfdfd;
+            color: #333;
+            display: flex;
+            flex-direction: column;
+            justify-content: center;
+            align-items: center;
+            min-height: 100vh;
+            padding: 20px;
+            text-align: left; /* Aligner tout le texte à gauche */
+        }
+        header {
+            position: relative;
+            height: 100vh;
+            width: 100%;
+            background-image: url('fleure.jpg'); /* Remplacez par votre image */
+            background-size: cover;
+            background-position: center;
+            color: #fff;
+            display: flex;
+            flex-direction: column;
+            justify-content: center;
+            align-items: center;
+            z-index: 0;
+        }
+        header h1 {
+            font-size: 3rem;
+            margin-bottom: 10px;
+            position: relative;
+            z-index: 1;
+        }
+        header p {
+            font-size: 1.2rem;
+            max-width: 600px;
+            margin: 0 auto;
+            position: relative;
+            z-index: 1;
+        }
+        header .overlay {
+            position: absolute;
+            top: 0;
+            left: 0;
+            width: 100%;
+            height: 100%;
+            background-color: rgba(0, 0, 0, 0.5);
+            z-index: 0;
+        }
+        nav {
+            position: fixed;
+            top: 0;
+            width: 100%;
+            background-color: rgba(0, 0, 0, 0.7);
+            padding: 10px 0;
+            z-index: 1000;
+            text-align: center; /* Centrer les liens de navigation */
+        }
+        nav a {
+            color: #fff;
+            text-decoration: none;
+            margin: 0 15px;
+            font-weight: bold;
+            transition: color 0.3s;
+        }
+        nav a:hover {
+            color: #f39c12;
+        }
+        section {
+            padding: 40px 20px;
+            max-width: 1200px;
+            margin: 0 auto;
+        }
+        .experience {
+            margin: 20px 0;
+            padding: 20px;
+            width: 100%;
+        }
+        .experience h2 {
+            font-size: 2rem;
+            margin-bottom: 20px;
+        }
+        .experience ul {
+            list-style-type: none;
+            padding: 0;
+            margin: 0;
+        }
+        .experience li {
+            margin-bottom: 20px;
+            font-size: 1.1rem;
+            line-height: 1.6;
+        }
+        footer {
+            text-align: center;
+            background-color: #333;
+            color: #fff;
+            padding: 20px;
+            margin-top: 20px;
+        }
+    </style>
+</head>
+<body>
+    <nav>
+        <a href="index.html">Accueil</a>
+        <a href="experiences.html">Expériences Professionnelles</a>
+        <a href="contact.html">Contact</a>
+    </nav>
+
+    <header>
+        <div class="overlay"></div>
+        <h1>Expériences Professionnelles</h1>
+        <p>Découvrez mes projets et mes expériences professionnelles passées.</p>
+    </header>
+
+    <section class="experience">
+        <h2>Projets</h2>
+        <ul>
+            <li>
+                <strong>Site Web Anti-Fraude</strong> (Février 2024)<br>
+                Création d’un site utilisant une API pour détecter les sites web malveillants et les numéros frauduleux.
+            </li>
+            <li>
+                <strong>Jeu Graphique "My Hunter"</strong> (Novembre 2024)<br>
+                Développement d’un jeu 2D interactif avec la bibliothèque CSFML.
+            </li>
+            <li>
+                <strong>L'Oréal Brandstorm</strong> (Décembre 2024)<br>
+                Création d’un concept innovant pour le marché des soins masculins.
+            </li>
+            <li>
+                <strong>Radar Graphique "My Radar"</strong> (Décembre 2024)<br>
+                Simulation en temps réel pour visualiser et suivre des objets sur un plan 2D.
+            </li>
+            <li>
+                <strong>Incubateur Belle de Mai</strong> (Décembre 2024)<br>
+                Prototypage d’applications et amélioration de processus internes en collaboration avec des équipes entrepreneuriales.
+            </li>
+        </ul>
+    </section>
+
+    <footer>
+        <p>&copy; 2025 Oughlis Tikinas. Tous droits réservés.</p>
+    </footer>
+</body>
+</html>
